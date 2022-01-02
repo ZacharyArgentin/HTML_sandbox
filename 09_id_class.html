@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div, span, id, and class</title>
+    <style>
+        .card {
+            border: 1px solid #ccc;
+            background: #f4f4f4;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+
+        .enhance {
+            color: yellow;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="main-header">
+        <h1>My website</h1>
+        <p>This is my website</p>
+    </div>
+    <div id="main-nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div id="about" class="card">
+        <h3>About</h3>
+        <p>Lorem, ipsum dolor sit amet <span class="enhance">consectetur adipisicing elit.</span> Eius necessitatibus iusto laudantium dolorem, eaque at vel numquam voluptatum praesentium delectus?</p>
+    </div>
+    <div id="contact" class="card">
+        <h3>Contact</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, eos!</p>
+        <ul>
+            <li>Address</li>
+            <li>Phone</li>
+            <li>Email</li>
+        </ul>
+    </div>
+    <div id="footer">
+        <p>Copyright &copy; 2021</p>
+    </div>
+</body>
+</html>
+
+<!-- Good practice to -->
+<!-- Use ids for unique sections -->
+<!-- Use classes for recurring themes -->
+
+<!-- div is a block level element -->
+<!-- span is an inline level element -->
